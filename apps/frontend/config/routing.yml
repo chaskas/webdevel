@@ -1,0 +1,32 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+servicios:
+  url: /servicios
+  param: { module: static, action: servicios }
+  
+nosotros:
+  url: /nosotros
+  param: { module: static, action: nosotros }
+
+portafolio:
+  url: /portafolio
+  param: { module: static, action: portafolio }
+
+contacto:
+  url: /contacto
+  param: { module: static, action: contacto }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: static, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

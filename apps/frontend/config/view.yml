@@ -1,0 +1,39 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        WebDevel.cl
+    description:  Diseño & Desarrollo Web
+    keywords:     diseño web, desarrollo, php, symfony
+    language:     es
+    robots:       index, follow
+
+  stylesheets:    
+    
+    - style.css
+    - skins/dark.css
+    - custom.css
+    - schemes/orange.css
+    - scripts/nivo-slider.css
+    - scripts/prettyPhoto.css
+    - ie7.css: { condition: IE 7 }
+
+  javascripts:
+    
+    - jquery-1.6.2.min.js
+    - contact-form.js
+    - custom.js
+    - jquery.nivo.slider.pack.js
+    - jquery.prettyPhoto.js
+    - jquery-ui-personalized-1.5.2.packed.js
+    - styleswitcher.js
+#    - twitter.js
+    - jquery.quicksand.min.js
+    - jquery.easing.js
+
+  has_layout:     true
+  layout:         layout
