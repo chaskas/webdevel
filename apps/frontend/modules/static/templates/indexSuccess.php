@@ -2,8 +2,8 @@
 <div class="slider">
   <div id="slider" class="nivoSlider"> 
     <?php echo image_tag('pictures/5w.jpg'); ?>
-    <?php echo image_tag('pictures/3w.jpg'); ?>
-    <?php echo image_tag('pictures/2w.jpg'); ?>
+    <?php //echo image_tag('pictures/3w.jpg'); ?>
+    <?php //echo image_tag('pictures/2w.jpg'); ?>
     
   </div> 
 </div> 
@@ -86,16 +86,16 @@
     </div>
     <div class="icon-text">
       <h5>Metodolog&iacute;as &Aacute;giles</h5>
-      <p>The variety is wide, pick templates that fits you best.</p>
+      <p>Sabemos que todas las ideas evolucionan, trabajamos con métodos iterativos e incrementales mediante colaboración en conjunto con el cliente.</p>
     </div>
   </div>
   <div class="one_fourth last"> 
     <div class="icon-image">
-      <?php echo image_tag('icons/symfony.png'); ?>
+      <?php echo image_tag('icons/iphone.png'); ?>
     </div>
     <div class="icon-text">
-      <h5>Symfony</h5>
-      <p>With an extensive you won't have any problems setting your page up.</p>
+      <h5>Móviles</h5>
+      <p>Contamos con vasta experiencia en el desarrollo móvil, tanto en Android, iOS como en multiplataforma.</p>
     </div>
   </div>   
   <div class="clear"></div>                                         

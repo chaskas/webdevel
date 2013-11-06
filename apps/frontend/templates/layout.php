@@ -21,9 +21,9 @@
               <li <?php if(sfContext::getInstance()->getRouting()->getCurrentRouteName() == 'homepage')echo "class='current'"; ?>>
                 <a href="<?php echo url_for('@homepage'); ?>">Home</a>
               </li>
-              <li <?php if(sfContext::getInstance()->getRouting()->getCurrentRouteName() == 'servicios')echo "class='current'"; ?>>
-                <a href="<?php echo url_for('@servicios'); ?>">Servicios</a>
-              </li>
+              <!-- <li <?php  //if(sfContext::getInstance()->getRouting()->getCurrentRouteName() == 'servicios')echo "class='current'"; ?>>
+                <a href="<?php //echo url_for('@servicios'); ?>">Servicios</a>
+              </li> -->
               <li <?php if(sfContext::getInstance()->getRouting()->getCurrentRouteName() == 'portafolio')echo "class='current'"; ?>>
                 <a href="<?php echo url_for('@portafolio'); ?>">Portafolio</a>
               </li>

@@ -1,0 +1,14 @@
+Nov 06 02:28:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'static',  'action' => 'index',)
+nov 06 02:28:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+nov 06 02:28:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+nov 06 02:28:31 symfony [info] {staticActions} Call "staticActions->executeIndex()"
+nov 06 02:28:31 symfony [info] {sfPHPView} Render "/Users/chaskas/Desktop/dev/projects/webdevel/apps/frontend/modules/static/templates/indexSuccess.php"
+nov 06 02:28:31 symfony [info] {sfPHPView} Decorate content with "/Users/chaskas/Desktop/dev/projects/webdevel/apps/frontend/templates/layout.php"
+nov 06 02:28:31 symfony [info] {sfPHPView} Render "/Users/chaskas/Desktop/dev/projects/webdevel/apps/frontend/templates/layout.php"
+nov 06 02:28:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+nov 06 02:28:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+nov 06 02:28:31 symfony [info] {sfWebDebugLogger} Configuration 53.35 ms (9)
+nov 06 02:28:31 symfony [info] {sfWebDebugLogger} Factories 61.38 ms (1)
+nov 06 02:28:31 symfony [info] {sfWebDebugLogger} Action "static/index" 0.11 ms (1)
+nov 06 02:28:31 symfony [info] {sfWebDebugLogger} View "Success" for "static/index" 15.70 ms (1)
+nov 06 02:28:31 symfony [info] {sfWebResponse} Send content (34885 o)

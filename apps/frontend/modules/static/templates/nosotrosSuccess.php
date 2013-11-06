@@ -1,13 +1,13 @@
 <div class="tagline"> 
   <h1>Nosotros</h1> 
-  <span>WebDevel.cl - Diseño & Desarrollo Web.</span>
+  <span>WebDevel.cl - Web & Mobile Development.</span>
   <div class="clear"></div>
 </div> 
 
 <div class="inner custom_content">
 
   <div class="content">             	
-    <img src="http://rta.zxy.me/purity/img/pictures/8w.jpg" class="heading-img" height="220" />
+    <!-- <img src="http://rta.zxy.me/purity/img/pictures/8w.jpg" class="heading-img" height="220" /> -->
     <h1>¿Quienes Somos?</h1>
     <p>
       <span class="dropcap1">H</span>oy en día el diseño web es la carta de presentación a la hora de dar a conocer una empresa , sabemos lo importante que es marcar la diferencia en el mercado, por lo que la imagen e identidad corporativa debe expresar no sólo la esencia de una empresa, sino que también transmitir ese mensaje hacia los clientes. 
@@ -21,7 +21,7 @@
       
     <div class="divider line"></div>
 
-    <h1>¿Qu&eacute; Hacemos?</h1>
+    <!-- <h1>¿Qu&eacute; Hacemos?</h1>
 
     <div class="tabs" class="widget">
 
@@ -53,9 +53,9 @@
           Purus consequat tristique pretium, nunc dui tempor enim, eget facilisis justo magna non nunc. Maecenas sagittis, purus consequat.
         </p>
       </div>          
-    </div>                    
+    </div>  -->                   
 
-    <div class="divider line"></div>
+    <!-- <div class="divider line"></div> -->
 
 
 <!-- 
@@ -88,7 +88,7 @@
       <span>Envato Marketplaces</span> 
     </blockquote>    -->                 
 
-    <div class="divider top"><a href="#">Top</a></div>
+    <!-- <div class="divider top"><a href="#">Top</a></div> -->
 
   </div>
 
@@ -153,7 +153,7 @@
         </li>
       </ul>
     </div> 
-    <div class="sidebar_item"> 
+    <!-- <div class="sidebar_item"> 
       <h5>Category</h5> 
       <ul> 
         <li><a href="#">Web Design</a></li> 
@@ -165,7 +165,7 @@
     <div class="sidebar_item"> 
       <h5>Custom text</h5> 
       <p>You can put any text content here or, if you prefer, another list containing your recent posts, works or useful links.</p> 
-    </div> 
+    </div>  -->
   </div>
 
   <div class="clear"></div>           
