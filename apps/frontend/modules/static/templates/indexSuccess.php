@@ -13,7 +13,7 @@
 <div class="home_tagline"> 
   <h1>
     Hola, bienvenido a <a href="<?php echo url_for('@homepage'); ?>">WebDevel</a>, desarrollo web y m&oacute;vil en concepci&oacute;n.<br/>
-    &Eacute;chele un vistazo a nuestro <a href="<?php echo url_for('@portafolio'); ?>">portafolio</a>, conozca sobre <a href="#">nosotros</a> y nuestro trabajo.<br/>
+    &Eacute;chele un vistazo a nuestro <a href="<?php echo url_for('@portafolio'); ?>">portafolio</a>, conozca sobre <a href="<?php echo url_for('@nosotros'); ?>">nosotros</a> y nuestro trabajo.<br/>
     ...¿Preguntas? <a href="<?php echo url_for('@contacto') ?>">Env&iacute;anos un email</a>.
   </h1> 
 </div> 
